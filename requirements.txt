@@ -1,6 +1,24 @@
-fitz==1.19.6
-langchain==0.0.200
-sentence-transformers==2.2.2
-faiss-cpu==1.7.2
-transformers==4.21.1
-torch==1.12.1
+# Core requirements
+torch>=2.7.1
+transformers>=4.53.0
+sentence-transformers>=4.1.0
+faiss-cpu>=1.11.0
+pymupdf>=1.26.1
+python-dotenv>=1.1.1
+pypdf>=5.7.0
+
+# LangChain requirements
+langchain-community>=0.3.26
+langchain-core>=0.3.66
+langchain>=0.3.26
+
+# API requirements
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart>=0.0.6
+
+# Additional utilities
+numpy>=1.26.2
+tqdm>=4.27.0
+scikit-learn>=1.7.0
+scipy>=1.16.0
