@@ -1,0 +1,6 @@
+fitz==1.19.6
+langchain==0.0.200
+sentence-transformers==2.2.2
+faiss-cpu==1.7.2
+transformers==4.21.1
+torch==1.12.1
