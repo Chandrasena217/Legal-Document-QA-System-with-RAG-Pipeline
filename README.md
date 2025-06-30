@@ -1,5 +1,7 @@
 # Legal Document QA System with RAG Pipeline
 
+### An intelligent Legal Assistant that uses **Retrieval-Augmented Generation (RAG)** to answer queries based on uploaded legal documents (PDF/TXT). This project combines document parsing, semantic search, and large language models (LLMs) to provide context-aware legal answers, along with document references.
+
 ![Legal Document Analysis](Banner.png) *(placeholder image)*
 
 ## Problem Statement
@@ -28,14 +30,27 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline that:
 - **API Endpoints**: FastAPI backend for easy integration
 - **Persistent Storage**: Saves processed documents for future queries
 
-## Technology Stack
+## 🚀 Demo & Capabilities
 
-### Core Components
-- **Document Processing**: PyMuPDF, LangChain text splitters
-- **Embeddings**: Sentence Transformers (all-MiniLM-L6-v2)
-- **Vector Store**: FAISS for efficient similarity search
-- **LLM**: Mistral-7B-Instruct for answer generation
-- **Backend**: FastAPI with CORS support
+- Upload legal PDFs or text files.
+- Ask legal questions in natural language.
+- Receive AI-generated answers grounded in the uploaded documents.
+- View sources (document name, page number, similarity score) for transparency.
+- REST API built with FastAPI for easy integration.
+
+
+## 🧰 Tech Stack
+
+| Component            | Technology                              |
+|---------------------|------------------------------------------|
+| Document Parsing     | PyMuPDF, LangChain TextLoader            |
+| Chunking             | RecursiveCharacterTextSplitter           |
+| Embeddings           | SentenceTransformers (MiniLM)            |
+| Vector Store         | FAISS                                    |
+| LLM                  | Mistral-7B-Instruct via HuggingFace      |
+| Backend/API          | FastAPI                                  |
+| Interface            | REST API (JSON requests/responses)       |
+| Deployment Ready     | Uvicorn, CORS-enabled backend            |
 
 ### Python Libraries
 - Transformers (Hugging Face)
@@ -43,4 +58,19 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline that:
 - FAISS
 - LangChain
 - FastAPI
+### 📚 Learning Outcomes
+✅ Practical implementation of the Retrieval-Augmented Generation pipeline.
+✅ Hands-on with FAISS and SentenceTransformers for dense semantic search.
+✅ Integrated large-scale language models (Mistral-7B) into a production pipeline.
+✅ Designed a scalable and modular architecture for document QA.
+✅ Built a developer-friendly backend using FastAPI with CORS and error handling.
+
+### 🔧 Future Improvements
+- Add a Streamlit or React front-end interface.
+- Support for more document types (.docx, HTML).
+- GPU-optimized Docker deployment.
+- Improve answer citation with exact context locations.
+- Add authentication & document-specific access control.
+
+  
 ![Oroject Structure](Structure.png)
