@@ -43,3 +43,4 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline that:
 - FAISS
 - LangChain
 - FastAPI
+![Oroject Structure](Structure.png)
