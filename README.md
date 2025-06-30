@@ -60,9 +60,13 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline that:
 - FastAPI
 ### 📚 Learning Outcomes
 ✅ Practical implementation of the Retrieval-Augmented Generation pipeline.
+
 ✅ Hands-on with FAISS and SentenceTransformers for dense semantic search.
+
 ✅ Integrated large-scale language models (Mistral-7B) into a production pipeline.
+
 ✅ Designed a scalable and modular architecture for document QA.
+
 ✅ Built a developer-friendly backend using FastAPI with CORS and error handling.
 
 ### 🔧 Future Improvements
