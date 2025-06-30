@@ -1,6 +1,6 @@
 # Legal Document QA System with RAG Pipeline
 
-![Legal Document Analysis](https://example.com/legal-doc-ai.jpg) *(placeholder image)*
+![Legal Document Analysis](Banner.png) *(placeholder image)*
 
 ## Problem Statement
 
